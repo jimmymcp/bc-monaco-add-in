@@ -1,0 +1,49 @@
+/* FileContentControl styles */
+.file-content-control {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.file-content-control textarea {
+    flex: 1;
+    width: 100%;
+    min-height: 300px;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 14px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    outline: none;
+}
+
+.file-content-control textarea:focus {
+    border-color: #0078d4;
+    box-shadow: 0 0 0 2px rgba(0, 120, 212, 0.2);
+}
+
+.file-content-control .button-container {
+    margin-top: 10px;
+}
+
+.file-content-control button {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.file-content-control button:hover {
+    background-color: #106ebe;
+}
+
+.file-content-control button:active {
+    background-color: #005a9e;
+}

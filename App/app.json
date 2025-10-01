@@ -1,0 +1,23 @@
+{
+    "id": "9e6bc43f-c1e8-4ba7-b7e7-e5f3bb99e4e5",
+    "name": "Monaco Editor Add In",
+    "publisher": "James Pearson",
+    "brief": "Hosts a page with an embedded Monaco Editor",
+    "help": "https://jpearson.blog",
+    "runtime": "15.0",
+    "source": {
+        "repositoryUrl": "https://github.com/jpearson/bc-monaco-add-in"
+    },
+    "features": [
+        "NoImplicitWith"
+    ],
+    "version": "1.0.0.0",
+    "application": "26.0.0.0",
+    "platform": "1.0.0.0",
+    "dependencies": [],
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": true,
+        "includeSourceInSymbolFile": true
+    }
+}
