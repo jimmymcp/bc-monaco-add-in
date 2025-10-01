@@ -9,6 +9,7 @@
   "trustedNuGetFeeds": [
     {
       "url": "https://api.nuget.org/v3/index.json",
+      "authTokenSecret": "NuGetContext",
       "patterns": [
         "Microsoft.*",
         "Newtonsoft.Json",
