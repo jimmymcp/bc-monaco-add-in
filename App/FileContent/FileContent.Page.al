@@ -1,5 +1,4 @@
-namespace JamesPearson.MoanacoAddIn;
-using System.Integration;
+namespace JamesPearson.MonacoAddIn;
 
 page 90103 "File Content"
 {
@@ -31,7 +30,7 @@ page 90103 "File Content"
     }
 
     var
-        Content, Language, FileName: Text;
+        Content, Language, FileName : Text;
 
     procedure SetContent(NewContent: Text)
     begin
@@ -51,16 +50,24 @@ page 90103 "File Content"
         Extension := FileName.Substring(FileName.LastIndexOf('.') + 1).ToLower();
 
         case Extension of
-            'al': Language := 'al';
-            'cs': Language := 'csharp';
-            'js': Language := 'javascript';
-            'json': Language := 'json';
-            'xml': Language := 'xml';
-            'html', 'htm': Language := 'html';
-            'css': Language := 'css';
-            'txt': Language := 'plaintext';
-        else
-            Language := 'plaintext';
+            'al':
+                Language := 'al';
+            'cs':
+                Language := 'csharp';
+            'js':
+                Language := 'javascript';
+            'json':
+                Language := 'json';
+            'xml':
+                Language := 'xml';
+            'html', 'htm':
+                Language := 'html';
+            'css':
+                Language := 'css';
+            'txt':
+                Language := 'plaintext';
+            else
+                Language := 'plaintext';
         end;
     end;
 
