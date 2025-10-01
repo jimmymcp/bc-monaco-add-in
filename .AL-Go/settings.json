@@ -5,5 +5,15 @@
     "App"
   ],
   "testFolders": [],
-  "bcptTestFolders": []
+  "bcptTestFolders": [],
+  "trustedNuGetFeeds": [
+    {
+      "url": "https://api.nuget.org/v3/index.json",
+      "patterns": [
+        "Microsoft.*",
+        "Newtonsoft.Json",
+        "JamesPearson.*"
+      ]
+    }
+  ]
 }
